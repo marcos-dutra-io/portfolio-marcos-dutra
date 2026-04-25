@@ -1,3 +1,6 @@
+import throttle from
+        '../../utils/throttle.js';
+
 export default function(){
 
     const sections=
@@ -10,9 +13,12 @@ export default function(){
             '.nav-link-custom'
         );
 
+    if(!sections.length) return;
+
     window.addEventListener(
         'scroll',
-        ()=>{
+
+        throttle(()=>{
 
             let current='';
 
@@ -24,8 +30,7 @@ export default function(){
                 if(
                     window.scrollY>=top
                 ){
-                    current=
-                        section.id;
+                    current=section.id;
                 }
 
             });
@@ -47,6 +52,10 @@ export default function(){
 
             });
 
-        });
+        },100),
+
+        {passive:true}
+
+    );
 
 }

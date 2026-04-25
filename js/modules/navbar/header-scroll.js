@@ -1,29 +1,35 @@
-export default function () {
+import throttle from
+        '../../utils/throttle.js';
 
-    const header =
+export default function(){
+
+    const header=
         document.querySelector(
             '.main-header'
         );
 
-    if (!header) return;
+    if(!header) return;
 
     window.addEventListener(
         'scroll',
-        () => {
 
-            if (
-                window.scrollY > 50
-            ) {
+        throttle(()=>{
+
+            if(window.scrollY>50){
                 header.classList.add(
                     'scrolled'
                 );
-            } else {
+            }
+            else{
                 header.classList.remove(
                     'scrolled'
                 );
             }
 
-        },
-        {passive: true}
+        },100),
+
+        {passive:true}
+
     );
+
 }

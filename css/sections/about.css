@@ -1,0 +1,25 @@
+.about-image{
+
+    height:540px;
+
+    border-radius:36px;
+
+    background:
+
+            linear-gradient(
+                    135deg,
+                    #1e293b,
+                    #0f172a
+            );
+
+}
+
+.about-grid{
+
+    display:grid;
+
+    grid-template-columns:
+repeat(2,1fr);
+
+    gap:30px;
+}

@@ -1,0 +1,51 @@
+:root{
+
+    /* COLORS */
+
+    --bg:#0b1120;
+    --surface:#111827;
+    --card:#182235;
+
+    --text:#f8fafc;
+    --muted:#94a3b8;
+
+    --accent:#7c3aed;
+    --accent-light:#22d3ee;
+
+    --border:#263346;
+
+
+    /* TYPOGRAPHY */
+
+    --font-main:'Inter',sans-serif;
+    --font-mono:'IBM Plex Mono',monospace;
+
+
+    /* SIZES */
+
+    --container:1200px;
+
+    --radius-sm:14px;
+    --radius-md:24px;
+    --radius-lg:32px;
+
+
+    /* SPACING */
+
+    --space-sm:30px;
+    --space-md:60px;
+    --space-lg:100px;
+    --space-xl:140px;
+
+
+    /* SHADOW */
+
+    --shadow:
+            0 10px 35px rgba(0,0,0,.28);
+
+
+    /* TRANSITION */
+
+    --transition:.35s ease;
+
+}

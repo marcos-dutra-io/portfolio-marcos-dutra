@@ -1,0 +1,48 @@
+.info-card,
+.project-card,
+.stack-box{
+
+    background:var(--card);
+
+    border:
+            1px solid var(--border);
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:var(--shadow);
+
+}
+
+
+.info-card{
+
+    padding:45px;
+
+    min-height:250px;
+}
+
+
+.project-card{
+
+    padding:50px;
+
+    min-height:420px;
+
+    transition:var(--transition);
+
+}
+
+.project-card:hover{
+
+    transform:
+            translateY(-8px);
+
+}
+
+
+.stack-box{
+
+    padding:50px;
+
+    min-height:350px;
+}

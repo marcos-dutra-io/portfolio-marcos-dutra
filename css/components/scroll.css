@@ -1,0 +1,64 @@
+/* smooth anchor navigation */
+html{
+    scroll-behavior:smooth;
+}
+
+
+/* evita header cobrir seções */
+section{
+    scroll-margin-top:120px;
+}
+
+
+/* scroll top button */
+
+.scroll-top{
+
+    position:fixed;
+
+    right:32px;
+    bottom:32px;
+
+    width:52px;
+    height:52px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(30px);
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+
+.scroll-top.show{
+
+    opacity:1;
+    visibility:visible;
+
+    transform:none;
+
+}
+
+
+.scroll-top:hover{
+
+    transform:
+            translateY(-4px);
+
+}

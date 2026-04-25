@@ -1,0 +1,68 @@
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+
+    background:
+
+            radial-gradient(
+                    circle at top right,
+                    rgba(124,58,237,.2),
+                    transparent 45%
+            );
+
+    padding-top:110px;
+
+}
+
+.eyebrow{
+
+    display:block;
+
+    margin-bottom:28px;
+
+    font-family:var(--font-mono);
+
+    color:var(--accent-light);
+
+}
+
+.hero-title{
+
+    font-size:clamp(4rem,8vw,7rem);
+
+    line-height:1.03;
+
+    font-weight:800;
+
+    max-width:900px;
+
+    margin-bottom:30px;
+}
+
+.hero-subtitle{
+
+    max-width:650px;
+
+    font-size:1.2rem;
+
+    color:var(--muted);
+
+    margin-bottom:50px;
+}
+
+.hero-visual{
+
+    height:520px;
+
+    border-radius:32px;
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+}

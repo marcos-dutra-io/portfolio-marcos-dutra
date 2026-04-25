@@ -1,0 +1,42 @@
+.container{
+    max-width:var(--container);
+}
+
+.section-space{
+    padding:var(--space-xl) 0;
+}
+
+.section-title{
+
+    font-size:clamp(2.7rem,5vw,4.5rem);
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    margin-bottom:60px;
+}
+
+.section-subtitle{
+
+    max-width:700px;
+
+    color:var(--muted);
+
+    font-size:1.1rem;
+
+    margin-bottom:80px;
+}
+
+.gradient-text{
+
+    background:
+            linear-gradient(
+                    90deg,
+                    var(--accent),
+                    var(--accent-light)
+            );
+
+    -webkit-background-clip:text;
+    color:transparent;
+}
