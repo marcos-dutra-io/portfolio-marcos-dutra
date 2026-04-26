@@ -1,10 +1,8 @@
-# IDEs
-.idea/
 .vscode/
+.idea/
+.DS_Store
 
-# Python
-__pycache__/
-*.pyc
+node_modules/
+dist/
 
-# Logs
-*.log
+.env

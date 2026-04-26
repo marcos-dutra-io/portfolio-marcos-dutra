@@ -1,12 +1,8 @@
-# Marcos Dutra — Developer Portfolio
+# Marcos Dutra — Portfólio de Desenvolvedor
 
 Portfólio pessoal desenvolvido para apresentar projetos, habilidades e trajetória em desenvolvimento de software.
 
-Projeto construído com foco em performance, organização de código, acessibilidade e boas práticas de front-end.
-
-## Preview
-
-Em breve deploy online.
+O projeto foi construído com foco em organização de código, acessibilidade, responsividade e boas práticas de front-end.
 
 ## Tecnologias
 
@@ -15,19 +11,19 @@ Em breve deploy online.
 - JavaScript (ES Modules)
 - Bootstrap 5
 
-## Features
+## Funcionalidades
 
 - Layout responsivo
-- Navegação com scrollspy
-- Navbar com comportamento dinâmico
-- Scroll to top
-- Seções modulares
-- Estrutura escalável de CSS e JS
-- Acessibilidade semântica
+- Navegação dinâmica
+- Scrollspy
+- Botão voltar ao topo
+- Estrutura modular de CSS e JavaScript
+- HTML semântico e acessível
 
 ## Estrutura do Projeto
 
 ```bash
+assets/
 css/
   base/
   components/
@@ -36,18 +32,20 @@ css/
 js/
   modules/
   utils/
+
+index.html
 ```
 
-## Objetivos do projeto
+## Objetivos
 
-Este portfólio foi desenvolvido para:
+Este projeto foi criado para:
 
 - consolidar fundamentos de front-end
 - aplicar organização profissional em projetos
 - servir como vitrine para recrutadores
 - evoluir continuamente com novos projetos
 
-## Rodando localmente
+## Executando localmente
 
 ```bash
 git clone https://github.com/seuusuario/portfolio-marcos-dutra.git
@@ -65,20 +63,23 @@ ou use Live Server.
 
 ## Roadmap
 
-- [ ] Adicionar projetos reais
-- [ ] Deploy produção
-- [ ] Melhorar animações
-- [ ] Adicionar dark mode
+- [ ] Adicionar novos projetos
+- [ ] Deploy em produção
+- [ ] Melhorias de animação
+- [ ] Dark mode
 - [ ] SEO completo
+
+## Versão em inglês
+
+English version:
+
+[README.en.md](README.en.md)
 
 ## Autor
 
 Marcos Dutra  
 Estudante de Engenharia da Computação
 
-LinkedIn: em breve  
-GitHub: em breve
-
-## License
+## Licença
 
 MIT
