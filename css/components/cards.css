@@ -67,3 +67,36 @@
     transform:translateX(6px);
 
 }
+
+
+.coming-soon{
+    position:relative;
+}
+
+.coming-soon::after{
+    content:"Publicação em breve";
+
+    position:absolute;
+    top:18px;
+    right:18px;
+
+    font-size:.72rem;
+    font-weight:600;
+    letter-spacing:.03em;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    background:linear-gradient(
+            90deg,
+            rgba(124,58,237,.18),
+            rgba(59,130,246,.18)
+    );
+
+    border:1px solid var(--border);
+
+    backdrop-filter:blur(10px);
+
+    color:var(--accent-light);
+}

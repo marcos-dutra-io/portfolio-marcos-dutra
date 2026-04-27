@@ -1,55 +1,152 @@
 # Marcos Dutra — Portfólio de Desenvolvedor
 
-Portfólio pessoal desenvolvido para apresentar projetos, habilidades e trajetória em desenvolvimento de software.
+Portfólio profissional desenvolvido para apresentar projetos, habilidades técnicas e trajetória em desenvolvimento de software.
 
-O projeto foi construído com foco em organização de código, acessibilidade, responsividade e boas práticas de front-end.
+Projetado com foco em código organizado, acessibilidade, responsividade, identidade visual e boas práticas de front-end.
+
+## Preview
+
+Portfólio online:
+
+https://marcos-dutra-io.github.io/portfolio-marcos-dutra/
+
+---
 
 ## Tecnologias
 
-- HTML5
-- CSS3 (arquitetura modular)
+### Front-end
+- HTML5 semântico
+- CSS3 modular
 - JavaScript (ES Modules)
 - Bootstrap 5
 
+### Recursos utilizados
+- Scrollspy customizado
+- Navbar dinâmica
+- Header scroll effect
+- Typed.js (efeito de digitação)
+- Scroll-to-top
+- Bootstrap Icons
+- Google Fonts
+
+---
+
 ## Funcionalidades
 
-- Layout responsivo
-- Navegação dinâmica
-- Scrollspy
-- Botão voltar ao topo
-- Estrutura modular de CSS e JavaScript
-- HTML semântico e acessível
+✔ Hero interativo com animação typing  
+✔ Navegação dinâmica com Scrollspy  
+✔ Seções responsivas e acessíveis  
+✔ Cards interativos de projetos  
+✔ Timeline profissional/acadêmica  
+✔ Call-to-action para estágio  
+✔ Botão voltar ao topo  
+✔ Arquitetura modular de CSS e JavaScript  
+✔ SEO básico e Open Graph
+
+---
+
+## Seções do Portfólio
+
+- Home / Hero
+- Sobre Mim
+- Projetos em Destaque
+- Stack de Tecnologias
+- Trajetória
+- Contato
+
+---
 
 ## Estrutura do Projeto
 
 ```bash
-assets/
-css/
-  base/
-  components/
-  sections/
-
-js/
-  modules/
-  utils/
-
-index.html
+portfolio-marcos-dutra/
+│
+├── assets/
+│   ├── icons/
+│   └── img/
+│
+├── css/
+│   ├── base/
+│   ├── components/
+│   ├── sections/
+│   ├── variables.css
+│   ├── layout.css
+│   ├── responsive.css
+│   └── main.css
+│
+├── js/
+│   ├── modules/
+│   │   ├── navbar/
+│   │   ├── ui/
+│   │   └── typed.js
+│   ├── utils/
+│   └── main.js
+│
+└── index.html
 ```
 
-## Objetivos
+---
 
-Este projeto foi criado para:
+## Destaques Técnicos
 
-- consolidar fundamentos de front-end
-- aplicar organização profissional em projetos
-- servir como vitrine para recrutadores
-- evoluir continuamente com novos projetos
+### Arquitetura CSS modular
+Separação por:
+
+- Base
+- Componentes
+- Seções
+- Responsividade
+- Variáveis globais
+
+### JavaScript modular
+
+Módulos independentes para:
+
+- Scrollspy
+- Navbar collapse
+- Header scroll
+- Scroll-top
+- Typing animation
+- Utility throttle
+
+---
+
+## Projetos em Destaque
+
+### ☕ Sistema de Cadastro em Java
+Projeto orientado a objetos em desenvolvimento.
+
+### 🌐 Horizonte Livre Turismo
+Projeto front-end responsivo em finalização.
+
+### 🐍 Automações com Python
+Scripts e automações em desenvolvimento.
+
+---
+
+## Projetos em Desenvolvimento
+
+Alguns projetos apresentados no portfólio estão em fase final e serão publicados em breve com código-fonte completo:
+
+- ☕ Sistema de Cadastro em Java *(em breve)*
+- 🌐 Horizonte Livre Turismo *(deploy em finalização)*
+- 🐍 Automações com Python *(em breve)*
+
+Os repositórios serão adicionados progressivamente conforme evolução do portfólio.
+
+---
 
 ## Executando localmente
 
-```bash
-git clone https://github.com/seuusuario/portfolio-marcos-dutra.git
+Clone o repositório:
 
+```bash
+git clone https://github.com/marcos-dutra-io/portfolio-marcos-dutra.git
+```
+
+Entre na pasta:
+
+```bash
 cd portfolio-marcos-dutra
 ```
 
@@ -59,15 +156,32 @@ Abra:
 index.html
 ```
 
-ou use Live Server.
+ou utilize Live Server.
+
+---
 
 ## Roadmap
 
+- [x] Deploy do portfólio
+- [ ] Publicar repositórios dos projetos
 - [ ] Adicionar novos projetos
-- [ ] Deploy em produção
-- [ ] Melhorias de animação
-- [ ] Dark mode
-- [ ] SEO completo
+- [ ] Melhorar microinterações
+- [ ] Implementar dark mode
+- [ ] Expandir SEO técnico
+- [ ] Futuramente versão em React
+
+---
+
+## Objetivo do Projeto
+
+Este projeto foi criado para:
+
+- Consolidar fundamentos de front-end
+- Aplicar organização profissional em projetos
+- Servir como vitrine para recrutadores
+- Apoiar busca por estágio em desenvolvimento de software
+
+---
 
 ## Versão em inglês
 
@@ -75,11 +189,22 @@ English version:
 
 [README.en.md](README.en.md)
 
+---
+
 ## Autor
 
-Marcos Dutra  
-Estudante de Engenharia da Computação
+**Marcos Dutra**  
+Estudante de Engenharia da Computação  
+Foco em Desenvolvimento Web • Java • Python
+
+GitHub:  
+https://github.com/marcos-dutra-io
+
+LinkedIn:  
+https://linkedin.com/in/marcos-dutra-io
+
+---
 
 ## Licença
 
-MIT
+Este projeto está sob licença MIT.

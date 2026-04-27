@@ -154,4 +154,12 @@
         bottom:15px;
     }
 
+    .coming-soon::after{
+        top:14px;
+        right:14px;
+        font-size:.65rem;
+        padding:5px 10px;
+    }
+
+
 }

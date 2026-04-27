@@ -1,55 +1,143 @@
 # Marcos Dutra — Developer Portfolio
 
-Personal portfolio built to showcase projects, technical skills and growth in software development.
+Professional portfolio built to showcase projects, technical skills and software development journey.
 
-This project focuses on code organization, accessibility, responsiveness and front-end best practices.
+Designed with focus on clean code organization, accessibility, responsiveness, visual identity and front-end best practices.
 
-## Tech Stack
+## Live Preview
 
-- HTML5
-- CSS3 (modular architecture)
+Portfolio:
+
+https://marcos-dutra-io.github.io/portfolio-marcos-dutra/
+
+---
+
+## Technologies
+
+### Front-end
+- Semantic HTML5
+- Modular CSS3
 - JavaScript (ES Modules)
 - Bootstrap 5
 
+### Tools & Features
+- Custom Scrollspy
+- Dynamic Navbar
+- Header scroll effect
+- Typed.js typing animation
+- Scroll-to-top button
+- Bootstrap Icons
+- Google Fonts
+
+---
+
 ## Features
 
-- Responsive layout
-- Dynamic navigation
-- Scrollspy
-- Scroll to top
-- Modular CSS and JavaScript structure
-- Semantic and accessible HTML
+✔ Interactive hero section  
+✔ Dynamic navigation with Scrollspy  
+✔ Responsive accessible layout  
+✔ Interactive project cards  
+✔ Academic and professional timeline  
+✔ Internship call-to-action section  
+✔ Modular CSS and JavaScript architecture  
+✔ Basic SEO + Open Graph
+
+---
+
+## Portfolio Sections
+
+- Home
+- About
+- Featured Projects
+- Tech Stack
+- Timeline
+- Contact
+
+---
 
 ## Project Structure
 
 ```bash
-assets/
-css/
-  base/
-  components/
-  sections/
-
-js/
-  modules/
-  utils/
-
-index.html
+portfolio-marcos-dutra/
+│
+├── assets/
+├── css/
+│   ├── base/
+│   ├── components/
+│   ├── sections/
+│   └── ...
+│
+├── js/
+│   ├── modules/
+│   ├── utils/
+│   └── main.js
+│
+└── index.html
 ```
 
-## Goals
+---
 
-This project was built to:
+## Technical Highlights
 
-- strengthen front-end fundamentals
-- apply professional project organization
-- serve as a portfolio showcase
-- continuously evolve with new projects
+### Modular CSS Architecture
+
+Organized into:
+
+- Base
+- Components
+- Sections
+- Responsive styles
+- Global variables
+
+### Modular JavaScript
+
+Separated modules for:
+
+- Scrollspy
+- Navbar behavior
+- Header scroll effect
+- Scroll-top
+- Typing animation
+- Utility throttle
+
+---
+
+## Featured Projects
+
+### ☕ Java Registration System
+Object-oriented project currently in development.
+
+### 🌐 Travel Website
+Responsive front-end project being finalized.
+
+### 🐍 Python Automations
+Automation scripts currently in development.
+
+---
+
+## Projects in Progress
+
+Some featured projects are being finalized and will be published soon with full source code:
+
+- ☕ Java Registration System *(coming soon)*
+- 🌐 Travel Website *(deployment in progress)*
+- 🐍 Python Automations *(coming soon)*
+
+Repositories will be added progressively as the portfolio evolves.
+
+---
 
 ## Running Locally
 
-```bash
-git clone https://github.com/yourusername/portfolio-marcos-dutra.git
+Clone repository:
 
+```bash
+git clone https://github.com/marcos-dutra-io/portfolio-marcos-dutra.git
+```
+
+Enter folder:
+
+```bash
 cd portfolio-marcos-dutra
 ```
 
@@ -61,25 +149,45 @@ index.html
 
 or use Live Server.
 
+---
+
 ## Roadmap
 
+- [x] Portfolio deployed
+- [ ] Publish project repositories
 - [ ] Add new projects
-- [ ] Production deployment
-- [ ] Improve animations
-- [ ] Dark mode
-- [ ] Full SEO setup
+- [ ] Improve micro-interactions
+- [ ] Add dark mode
+- [ ] Expand technical SEO
+- [ ] Future React version
 
-## Portuguese Version
+---
 
-Versão em português:
+## Purpose
 
-[README.md](README.md)
+Created to:
+
+- Strengthen front-end foundations
+- Apply professional project structure
+- Showcase work to recruiters
+- Support internship opportunities
+
+---
 
 ## Author
 
-Marcos Dutra  
-Computer Engineering Student
+**Marcos Dutra**  
+Computer Engineering Student  
+Focused on Web Development • Java • Python
+
+GitHub:  
+https://github.com/marcos-dutra-io
+
+LinkedIn:  
+https://linkedin.com/in/marcos-dutra-io
+
+---
 
 ## License
 
-MIT
+Licensed under MIT.
