@@ -1,68 +1,215 @@
 .hero{
 
-    min-height:100vh;
-
-    display:flex;
-    align-items:center;
+    padding:120px 0 80px 0;
 
     background:
-
-            radial-gradient(
-                    circle at top right,
-                    rgba(124,58,237,.2),
-                    transparent 45%
-            );
-
-    padding-top:110px;
+            radial-gradient(circle at top right, rgba(124,58,237,.15), transparent 45%),
+            radial-gradient(circle at bottom left, rgba(59,130,246,.08), transparent 50%);
 
 }
 
 .eyebrow{
 
-    display:block;
-
-    margin-bottom:28px;
+    display:inline-block;
 
     font-family:var(--font-mono);
 
+    font-size:.85rem;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
     color:var(--accent-light);
+
+    margin-bottom:12px;
 
 }
 
 .hero-title{
 
-    font-size:clamp(4rem,8vw,7rem);
+    font-size:clamp(2.6rem,5vw,4.2rem);
 
-    line-height:1.03;
+    line-height:1.1;
 
     font-weight:800;
 
-    max-width:900px;
+    max-width:800px;
 
-    margin-bottom:30px;
+}
+
+.hero-title .gradient-text{
+    display:block;
+}
+
+.hero-actions{
+
+    margin-top:30px;
+
+}
+
+.hero-actions a{
+
+    transition:var(--transition);
+
+}
+
+.btn-main:hover,
+.btn-outline-custom:hover{
+
+    transform:translateY(-3px);
+
 }
 
 .hero-subtitle{
 
-    max-width:650px;
+    font-size:1.15rem;
 
-    font-size:1.2rem;
+    line-height:1.7;
 
     color:var(--muted);
 
-    margin-bottom:50px;
+    max-width:600px;
+
+    margin-top:20px;
+
 }
 
 .hero-visual{
 
-    height:520px;
+    padding:24px;
 
-    border-radius:32px;
+    border-radius:24px;
 
     background:var(--card);
 
     border:1px solid var(--border);
 
     box-shadow:var(--shadow);
+
+    max-width:420px;
+
+    margin-left:auto;
+
+}
+
+.hero-visual pre{
+
+    font-size:.85rem;
+
+    line-height:1.6;
+
+    margin:0;
+
+    color:var(--muted);
+
+    white-space:pre-wrap;
+
+}
+
+.terminal-top{
+
+    display:flex;
+
+    gap:6px;
+
+    margin-bottom:14px;
+
+}
+
+.dot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+}
+
+.red{background:#ff5f56;}
+.yellow{background:#ffbd2e;}
+.green{background:#27c93f;}
+
+
+
+/* badge estágio */
+.status-badge{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:.8rem;
+    font-weight:500;
+
+    color:var(--accent);
+
+    background:rgba(124,58,237,.1);
+
+    border:1px solid rgba(124,58,237,.3);
+
+}
+
+.status-badge::before{
+
+    content:"●";
+
+    margin-right:6px;
+
+    color:var(--accent);
+
+    animation:pulse 1.5s infinite;
+
+}
+
+@keyframes pulse{
+    0%,100%{opacity:1;}
+    50%{opacity:.4;}
+}
+
+.hero-typing{
+
+    margin-top:15px;
+
+    font-size:1.2rem;
+
+    color:var(--muted);
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:.5rem;
+
+    align-items:center;
+
+}
+
+.typing-label{
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+.typed{
+
+    color:var(--accent);
+
+    font-weight:600;
+
+}
+
+.typed-cursor{
+
+    color:var(--accent);
+
+    font-weight:400;
 
 }

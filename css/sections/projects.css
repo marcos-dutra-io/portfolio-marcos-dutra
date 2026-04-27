@@ -9,13 +9,6 @@
 
 }
 
-.project-card h3{
-
-    font-size:2rem;
-
-    margin-bottom:24px;
-}
-
 .project-meta{
 
     margin-top:30px;
@@ -25,15 +18,4 @@
     gap:14px;
 
     flex-wrap:wrap;
-}
-
-.project-tag{
-
-    padding:8px 18px;
-
-    border-radius:999px;
-
-    background:var(--surface);
-
-    font-size:.9rem;
 }

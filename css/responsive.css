@@ -1,0 +1,157 @@
+@media(max-width:992px){
+
+    .section-space{
+        padding:100px 0;
+    }
+
+    .section-text{
+        text-align:center;
+        margin:0 auto;
+    }
+
+    .hero{
+
+        text-align:center;
+
+    }
+
+    .hero-subtitle{
+
+        margin-left:auto;
+
+        margin-right:auto;
+
+    }
+
+    .hero-actions{
+
+        justify-content:center;
+
+    }
+
+    .hero-visual{
+
+        margin:40px auto 0;
+
+        max-width:100%;
+
+    }
+
+    .hero-title{
+        font-size:3.6rem;
+        line-height:1.08;
+    }
+
+    .about-photo{
+        margin:0 auto;
+    }
+
+    .about-grid{
+        grid-template-columns:1fr;
+    }
+
+    .timeline{
+        padding-left:35px;
+    }
+
+    .about-photo{
+        display:block;
+        margin:0 auto 2rem;
+    }
+
+    #about{
+        text-align:center;
+    }
+
+    #about .row{
+        justify-content:center;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .hero-title{
+        font-size:3rem;
+    }
+
+    .hero-subtitle{
+        font-size:1.05rem;
+    }
+
+    .section-title{
+        font-size:2.5rem;
+    }
+
+    .hero-visual{
+        padding:1.5rem;
+    }
+
+    .hero-visual pre{
+        font-size:.85rem;
+    }
+
+    .card,
+    .info-card{
+        padding:35px;
+    }
+
+    .about-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about-photo{
+        width:140px;
+        height:140px;
+    }
+
+    .timeline{
+        padding-left:30px;
+    }
+
+    .timeline::before{
+        left:12px;
+    }
+
+    .timeline-item::before{
+        left:-24px;
+    }
+
+    .contact-title{
+        font-size:2rem;
+    }
+
+    .contact-text{
+        font-size:1rem;
+        padding:0 10px;
+    }
+
+    .contact-actions a{
+        width:100%;
+        justify-content:center;
+    }
+
+}
+
+
+
+@media(max-width:576px){
+
+    .hero-title{
+        font-size:2.5rem;
+    }
+
+    .hero-actions .btn-main,
+    .hero-actions .btn-outline-custom{
+        width:100%;
+    }
+
+    .scroll-top{
+        width:42px;
+        height:42px;
+        right:15px;
+        bottom:15px;
+    }
+
+}

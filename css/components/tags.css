@@ -1,0 +1,108 @@
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.7rem;
+    margin-top:1.5rem;
+}
+
+.tag{
+
+    display:inline-flex;
+    align-items:center;
+    gap:.5rem;
+    font-weight:500;
+
+    padding:.5rem 1rem;
+
+    border-radius:999px;
+
+    border:1px solid var(--border);
+
+    font-size:.85rem;
+
+    transition:var(--transition);
+
+}
+
+.tag:hover{
+    transform:translateY(-2px);
+    border-color:var(--accent);
+}
+
+/*🌐 Front-end*/
+
+.tag--html{
+    background:rgba(227,79,38,.15);
+    color:#E34F26;
+}
+
+.tag--css{
+    background:rgba(21,114,182,.15);
+    color:#1572B6;
+}
+
+.tag--bootstrap{
+    background:rgba(121,82,179,.15);
+    color:#7952B3;
+}
+
+.tag--js{
+    background:rgba(247,223,30,.15);
+    color:#F7DF1E;
+}
+
+/*⚙️ Back-end / lógica*/
+
+.tag--java{
+    background:rgba(237,139,0,.15);
+    color:#ED8B00;
+}
+
+.tag--python{
+    background:rgba(53,114,165,.15);
+    color:#3572A5;
+}
+
+.tag--logic{
+    background:rgba(100,100,100,.15);
+    color:#B0B0B0;
+}
+
+.tag--oop{
+    background:rgba(120,81,169,.15);
+    color:#7C4DFF;
+}
+
+/*🛠️ Ferramentas*/
+
+.tag--git{
+    background:rgba(240,80,51,.15);
+    color:#F05032;
+}
+
+.tag--github{
+    background:rgba(36,41,46,.15);
+    color:#ffffff;
+}
+
+.tag--pages{
+    background:rgba(0,0,0,.15);
+    color:#E0E0E0;
+}
+
+/*💻 Outros (projetos)*/
+
+.tag--desktop{
+    background:rgba(0,150,199,.15);
+    color:#00AEEF;
+}
+
+.tag--automation{
+    background:rgba(0,200,120,.15);
+    color:#00C878;
+}
+
+.tag--scripts{
+    background:rgba(180,120,255,.15);
+    color:#B47AFF;
+}

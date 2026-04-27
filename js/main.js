@@ -10,6 +10,7 @@ import initHeaderScroll from
 import initScrollTop from
         './modules/ui/scroll-top.js';
 
+import { initTyped } from "./modules/typed.js";
 
 document.addEventListener(
     'DOMContentLoaded',
@@ -19,5 +20,6 @@ document.addEventListener(
         initCollapse();
         initHeaderScroll();
         initScrollTop();
+        initTyped();
 
     });

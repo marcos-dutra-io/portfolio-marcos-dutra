@@ -1,23 +1,82 @@
 .contact-section{
 
-    padding:180px 0;
-
     text-align:center;
 
-    background:
+    padding:120px 0;
 
-            radial-gradient(
-                    circle,
-                    rgba(34,211,238,.08),
-                    transparent
-            );
+    background:var(--bg);
+
+    position:relative;
+
+}
+
+.contact-section::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:radial-gradient(
+            circle at center,
+            rgba(124,58,237,.15),
+            transparent 60%
+    );
+
+    pointer-events:none;
 
 }
 
 .contact-title{
 
-    font-size:
-            clamp(3rem,7vw,5rem);
+    font-size:clamp(2rem,4vw,3rem);
 
-    margin-bottom:40px;
+    font-weight:800;
+
+    max-width:800px;
+
+    margin:0 auto 20px;
+
+}
+
+.contact-text{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    color:var(--muted);
+
+    font-size:1.1rem;
+
+    line-height:1.7;
+
+}
+
+.contact-section .btn-main{
+
+    font-size:1.05rem;
+
+    padding:18px 42px;
+
+}
+
+.contact-section .btn-main:hover{
+
+    transform:translateY(-6px) scale(1.02);
+
+    box-shadow:0 20px 40px rgba(124,58,237,.25);
+
+}
+
+.contact-actions{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    gap:1rem;
+
+    margin-top:30px;
+
 }

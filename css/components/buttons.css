@@ -1,11 +1,5 @@
 .btn-main{
 
-    display:inline-block;
-
-    padding:16px 34px;
-
-    border-radius:999px;
-
     font-weight:600;
 
     background:
@@ -17,8 +11,6 @@
 
     box-shadow:var(--shadow);
 
-    transition:var(--transition);
-
 }
 
 .btn-main:hover{
@@ -28,15 +20,7 @@
 
 .btn-outline-custom{
 
-    display:inline-block;
-
-    padding:16px 34px;
-
-    border-radius:999px;
-
     border:1px solid var(--border);
-
-    transition:var(--transition);
 
 }
 
@@ -44,4 +28,30 @@
 
     background:var(--surface);
 
+}
+
+.btn-main,
+.btn-outline-custom{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:.6rem;
+
+    min-width:180px;   /* mesma largura */
+    min-height:56px;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    transition:var(--transition);
+
+}
+
+.btn-main i,
+.btn-outline-custom i{
+    font-size:1rem;
+    line-height:1;
 }
