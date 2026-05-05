@@ -63,3 +63,11 @@ button{
 .skip-link:focus-visible{
     top:20px;
 }
+
+.container, .container-fluid {
+    overflow-x: clip;
+}
+
+[class*="col-"] {
+    min-width: 0;
+}
