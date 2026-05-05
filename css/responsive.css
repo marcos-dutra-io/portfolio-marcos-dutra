@@ -163,3 +163,13 @@
 
 
 }
+
+@media(max-width:400px){
+    .info-card{
+        padding:20px;
+    }
+
+    .about-grid{
+        gap:15px;
+    }
+}
